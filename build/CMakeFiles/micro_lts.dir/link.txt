@@ -1,0 +1,1 @@
+/usr/bin/clang++  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.5.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/micro_lts.dir/src/main.cpp.o CMakeFiles/micro_lts.dir/src/order.cpp.o CMakeFiles/micro_lts.dir/src/trading_engine.cpp.o -o micro_lts 

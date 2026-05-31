@@ -1,0 +1,5 @@
+if(EXISTS "/Users/uoron/Desktop/Micro-LTS-Project/build/tests/run_unit_tests[1]_tests.cmake")
+  include("/Users/uoron/Desktop/Micro-LTS-Project/build/tests/run_unit_tests[1]_tests.cmake")
+else()
+  add_test(run_unit_tests_NOT_BUILT run_unit_tests_NOT_BUILT)
+endif()
