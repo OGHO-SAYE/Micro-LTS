@@ -17,6 +17,7 @@ FetchContent_MakeAvailable(googletest)
 file(GLOB_RECURSE ENGINE_SRC 
     "../src/trading_engine.cpp"
     "../src/order.cpp"
+    "../src/risk_manager.cpp"
 )
 
 # Use GLOB to find tests dynamically so CMake won't throw hard errors if they are missing

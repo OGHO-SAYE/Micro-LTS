@@ -22,6 +22,7 @@ include_directories(include)
 file(GLOB_RECURSE SRC_FILES 
     "src/trading_engine.cpp"
     "src/order.cpp"
+    "src/risk_manager.cpp"
 )
 
 # Core system executable target

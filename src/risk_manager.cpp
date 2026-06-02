@@ -1,4 +1,4 @@
-#include "include/lts/risk_manager.h"
+#include "lts/risk_manager.h"
 
 namespace lts {
 

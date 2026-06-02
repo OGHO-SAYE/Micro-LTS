@@ -46,5 +46,5 @@ namespace lts {
         } else {
             return std::make_unique<LimitOrder>(packet.action, std::move(cleanTicker), packet.quantity, packet.price);
         }    
-    
     }
+    };
